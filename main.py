@@ -15,18 +15,18 @@ def usernames():
     v = ''.join(choice('v') for i in range(1))
     i = ''.join(choice('i') for i in range(1))
     p = ''.join(choice('p') for i in range(1))
-    1 = ''.join(choice('123456789') for i in range(1))
-    2 = ''.join(choice('123456789qwertyuiopasdfghjklzxcvbnm') for i in range(1))
+    k = ''.join(choice('123456789') for i in range(1))
+    y = ''.join(choice('123456789qwertyuiopasdfghjklzxcvbnm') for i in range(1))
     o = ''.join(choice('o') for i in range(1))
     s = ''.join(choice('s') for i in range(1))
     f =  ''.join(choice('qwertyuiopasdfghjklzxcvbnm') for i in range(1))
     b = ''.join(choice('b') for i in range(1))
-    u1 = v + i + p + 1 + 2
-    u2 = v + i + p + 2 + 1 + 1 
-    u3 = v + i + p + 2 + 1 + 2 + 1
-    u4 = v + i + p +  1 + 1 + 1 + 1 
-    u5 = s + o + s + o + 1 + 2
-    u6 = s + o + s + o + 1 + 2 + 2
+    u1 = v + i + p + k + y
+    u2 = v + i + p + y + k + k
+    u3 = v + i + p + y + k + y + k
+    u4 = v + i + p + k + k + k + k
+    u5 = s + o + s + o + k + y
+    u6 = s + o + s + o + k + y + y
     u7 = f + b  + o + s + s + s
     return choice(s)
 
